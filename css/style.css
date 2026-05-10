@@ -1,0 +1,226 @@
+/* -------------------------------------------------------------------------
+   style.css — single-file stylesheet.
+
+   Aesthetic: academic ink on warm paper. Reads like a well-set page,
+   not a webapp. The small-caps section headings echo the LaTeX CV
+   so the site and the PDF feel like one document.
+   ------------------------------------------------------------------------- */
+
+:root {
+  --paper:     #fbf9f4;
+  --ink:       #1a1a1a;
+  --ink-soft:  #4a4a4a;
+  --rule:      #d8d3c7;
+  --link:      #0f2841;
+  --link-hov:  #7d2a2a;
+  --measure:   40rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:     #15171a;
+    --ink:       #e8e4dc;
+    --ink-soft:  #a9a59c;
+    --rule:      #2c2f33;
+    --link:      #b8c8de;
+    --link-hov:  #e7a99d;
+  }
+}
+
+/* ---- reset --------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+/* ---- typography ---------------------------------------------------- */
+
+html {
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria,
+               "Source Serif Pro", Georgia, serif;
+  font-feature-settings: "kern", "liga", "onum";
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+main {
+  max-width: var(--measure);
+  margin: 4rem auto 2rem;
+  padding: 0 1.5rem;
+}
+
+p { margin: 0.7em 0; }
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition: color 120ms ease, border-color 120ms ease;
+}
+a:hover {
+  color: var(--link-hov);
+  border-bottom-color: currentColor;
+}
+
+code, kbd, samp, pre {
+  font-family: "JetBrains Mono", "IBM Plex Mono", "SF Mono", Menlo,
+               Consolas, monospace;
+  font-size: 0.92em;
+}
+
+/* ---- masthead ------------------------------------------------------ */
+
+.masthead {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.masthead h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.2rem;
+  line-height: 1.15;
+}
+
+.masthead .alias {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+.tagline {
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0.2rem 0 0.6rem;
+  font-size: 0.95rem;
+}
+
+.contact {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.contact a { color: var(--ink); }
+
+/* ---- section headings (echo the LaTeX small-caps rule) ------------- */
+
+h2 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  margin: 2.6rem 0 0.4rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.3rem 0 0.3rem;
+}
+
+/* ---- content blocks ----------------------------------------------- */
+
+.papers > p {
+  margin: 0.4rem 0 1rem;
+}
+
+/* Experience / Projects / Education entry.
+   First paragraph = title row (flex: title left, date right).
+   Following paragraphs = description, full width.            */
+.entry {
+  margin: 1rem 0 1.3rem;
+}
+
+.entry > p:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  margin: 0.3rem 0 0.15rem;
+}
+
+.entry > p:first-of-type .meta {
+  flex-shrink: 0;
+}
+
+.entry > p + p {
+  margin-top: 0.15rem;
+}
+
+.entry ul {
+  margin-top: 0.25rem;
+}
+
+.meta {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-feature-settings: "tnum", "lnum";
+  white-space: nowrap;
+}
+
+ul {
+  padding-left: 1.4rem;
+  margin: 0.4rem 0 0.8rem;
+}
+ul li { margin: 0.18rem 0; }
+
+strong { font-weight: 600; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0 1.2rem;
+}
+
+/* ---- footer / colophon -------------------------------------------- */
+
+footer {
+  max-width: var(--measure);
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.colophon {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.colophon a {
+  color: var(--ink-soft);
+  border-bottom-color: var(--rule);
+}
+
+/* ---- small screens ------------------------------------------------- */
+
+@media (max-width: 480px) {
+  html { font-size: 17px; }
+  main { margin-top: 2.5rem; }
+  .masthead h1 { font-size: 1.7rem; }
+  h2 { margin-top: 2rem; }
+}
+
+/* ---- print --------------------------------------------------------- */
+
+@media print {
+  :root { --paper: #fff; --ink: #000; --rule: #999; }
+  body { font-size: 11pt; }
+  footer { display: none; }
+  a { color: inherit; border: 0; }
+}

@@ -1,0 +1,10 @@
+_site/
+_cache/
+dist/
+dist-newstyle/
+.stack-work/
+*.hi
+*.o
+site
+.DS_Store
+result
