@@ -7,24 +7,19 @@
    ------------------------------------------------------------------------- */
 
 :root {
-  --paper:     #fbf9f4;
-  --ink:       #1a1a1a;
-  --ink-soft:  #4a4a4a;
-  --rule:      #d8d3c7;
-  --link:      #0f2841;
-  --link-hov:  #7d2a2a;
+  /* Linen + Slate.
+     Background is a freshly-printed page, no longer yellowed.
+     Text softened off pure black; link is a calm slate blue,
+     hover a warm terracotta — the page can be read for hours.
+     Single palette: dark-mode users see the same light page,
+     matching how a printed CV does not adapt to ambient light. */
+  --paper:     #f5f2e9;
+  --ink:       #2a2826;
+  --ink-soft:  #6b6864;
+  --rule:      #ddd9d0;
+  --link:      #1f4870;
+  --link-hov:  #a06b4a;
   --measure:   40rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper:     #15171a;
-    --ink:       #e8e4dc;
-    --ink-soft:  #a9a59c;
-    --rule:      #2c2f33;
-    --link:      #b8c8de;
-    --link-hov:  #e7a99d;
-  }
 }
 
 /* ---- reset --------------------------------------------------------- */
@@ -61,7 +56,7 @@ p { margin: 0.7em 0; }
 a {
   color: var(--link);
   text-decoration: none;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid color-mix(in srgb, var(--link) 45%, transparent);
   transition: color 120ms ease, border-color 120ms ease;
 }
 a:hover {
