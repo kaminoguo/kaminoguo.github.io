@@ -15,6 +15,12 @@ import           Data.Monoid (mappend)
 main :: IO ()
 main = hakyll $ do
 
+    -- CNAME file: GitHub Pages reads this from _site/ root
+    -- to configure the custom domain. Must be copied verbatim.
+    match "CNAME" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
