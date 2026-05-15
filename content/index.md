@@ -1,17 +1,18 @@
 ---
 title: Liu Yuchen (Lyrica)
-description: Independent researcher in mechanistic interpretability of LLMs and Vision-Language-Action models. 0-to-1 builder.
+description: Founder of Φ(fight) Research. Independent researcher in mechanistic interpretability of LLMs and Vision-Language-Action models.
 ---
 
 <header class="masthead">
 
 # Liu Yuchen <span class="alias">(Lyrica)</span>
 
-<p class="tagline">Independent researcher · 0-to-1 builder</p>
+<p class="tagline">Founder, <a href="https://xn--7xa.monster">Φ(fight) Research</a> · Independent researcher</p>
 
 <p class="contact">
 <a href="mailto:yuchen@xn--7xa.monster">yuchen@φ.monster</a> ·
 <a href="https://github.com/kaminoguo">github.com/kaminoguo</a> ·
+<a href="https://xn--7xa.monster">φ.monster</a> ·
 <a href="/static/cv.pdf">CV (pdf)</a>
 </p>
 
@@ -51,6 +52,15 @@ modes that look acceptable on aggregate-success metrics alone.
 </section>
 
 ## Experience
+
+<div class="entry">
+
+**Founder, [Φ(fight) Research](https://xn--7xa.monster)** <span class="meta">May 2026 – present</span>
+
+- Independent research collective for physical-world AI fighting: adversarial multi-agent VLA, world models under contested dynamics, mechanistic interpretability of self-play policies.
+- Three papers in progress for ICLR 2027 (co-authored with Han Muchen): one benchmark (Φ-Arena, co-led), one mechanistic interpretability paper (lead), one energy-bounded adversarial games paper (collaboration).
+
+</div>
 
 <div class="entry">
 
