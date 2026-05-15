@@ -3,7 +3,7 @@ name:               site
 version:            0.1.0.0
 synopsis:           Personal site generator (Hakyll)
 author:             Liu Yuchen
-maintainer:         yliuoe@connect.ust.hk
+maintainer:         yuchen@xn--7xa.monster
 build-type:         Simple
 
 executable site

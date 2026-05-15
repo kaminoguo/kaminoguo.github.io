@@ -42,6 +42,6 @@ siteCtx :: Context String
 siteCtx =
     constField "site_title"  "Liu Yuchen — Lyrica"            `mappend`
     constField "site_author" "Liu Yuchen"                     `mappend`
-    constField "site_email"  "yliuoe@connect.ust.hk"          `mappend`
+    constField "site_email"  "yuchen@xn--7xa.monster"          `mappend`
     constField "site_github" "kaminoguo"                      `mappend`
     defaultContext

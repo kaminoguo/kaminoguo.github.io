@@ -10,7 +10,7 @@ description: Independent researcher in mechanistic interpretability of LLMs and 
 <p class="tagline">Independent researcher · 0-to-1 builder</p>
 
 <p class="contact">
-<a href="mailto:yliuoe@connect.ust.hk">yliuoe@connect.ust.hk</a> ·
+<a href="mailto:yuchen@xn--7xa.monster">yuchen@φ.monster</a> ·
 <a href="https://github.com/kaminoguo">github.com/kaminoguo</a> ·
 <a href="/static/cv.pdf">CV (pdf)</a>
 </p>
