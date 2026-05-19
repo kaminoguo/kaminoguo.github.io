@@ -1,45 +1,43 @@
 # Liu Yuchen (Lyrica)
 
-> Independent researcher in mechanistic interpretability and methodology for vision-language-action (VLA) models. Founder of Φ(fight) Research. HKUST EE+AI sophomore. Four papers under double-blind review at NeurIPS 2026.
+> Founder of Φ(fight) Research — independent research collective for physical-world AI fighting. HKUST EE+AI sophomore. Four sole/co-first-author papers on mechanistic interpretability and methodology for vision-language-action models under double-blind review at NeurIPS 2026 (the technical groundwork that Φ-Arena combat evaluation builds on).
 
 ## Identity
 
 - **Full name:** Liu Yuchen
 - **Alternate names:** Lyrica, kaminoguo (GitHub handle)
 - **Pronouns:** he/him
-- **Affiliation:** Hong Kong University of Science and Technology (HKUST), EE + AI dual major, sophomore
 - **Role:** Founder, Φ(fight) Research (May 2026 – present)
+- **Affiliation:** Hong Kong University of Science and Technology (HKUST), EE + AI dual major, sophomore
 - **Email:** yuchen@φ.monster (technical: yuchen@xn--7xa.monster)
 - **GitHub:** https://github.com/kaminoguo
 - **Personal site:** https://lyrica.φ.monster (technical: https://lyrica.xn--7xa.monster)
 - **Φ org:** https://φ.monster
 
-## Research
+## Current focus — Φ(fight) Research
 
-### Current focus
+Founded May 2026 with Han Muchen. Independent collective studying what happens when physical AIs fight each other in shared physical space. Anti-VC, open-publication-only, ten-year program.
 
-- Mechanistic interpretability for vision-language-action models
-- Adversarial multi-agent embodied AI (VLA-vs-VLA)
-- Self-play policies and circuit-level analysis of exploit-prone subnetworks
-- World models under adversarial dynamics
+Three papers in progress for ICLR 2027 under Φ(fight) Research:
 
-### Four papers under double-blind review at NeurIPS 2026
+1. **Φ-Arena (co-led with Han Muchen)** — first open benchmark for VLA-vs-VLA combat evaluation under contact-rich physics, across MuJoCo / Isaac Sim / Genesis, with full pairwise matchup across OpenVLA, OpenVLA-OFT, π₀, and SmolVLA
+2. **Mechanistic interpretability of self-play policies (Liu Yuchen lead)** — circuit-level analysis of exploit-prone subnetworks emerging during adversarial self-play training in Φ-Arena
+3. **Energy-bounded adversarial games (Han Muchen lead)** — empirical characterization of how physical resource constraints reshape emergent strategy distributions in combat self-play
 
-Three sole-author, one co-first. Titles and anonymous repository identifiers are withheld until NeurIPS 2026 decisions land in September 2026 to preserve double-blind review integrity. Full information available on request after the review period.
+All artifacts open-source on HuggingFace and GitHub at ICLR submission (September 2026).
+
+## Pre-Φ research — four papers under NeurIPS 2026 double-blind review
+
+Three sole-author, one co-first. This is the technical groundwork that informed Φ's methodology (activation-intervention toolkit, closed-loop VLA evaluation infrastructure, deployment-failure auditing) — Yuchen's pre-Φ work on the interpretability instrument that Φ-Arena's combat analysis applies to self-play policies.
+
+Titles and anonymous repository identifiers withheld until NeurIPS 2026 decisions in September 2026 to preserve double-blind review integrity. Full information available on request after the review period.
 
 Topic descriptions (review-safe):
 
-1. **Sole author.** Mechanistic interpretability of transformer language models — shows that a class of widely-used spectral diagnostics on hidden states is systematically biased by an input-invariant high-variance direction, and proposes a one-line correction.
-2. **Sole author.** Activation-ablation methodology for Vision-Language-Action (VLA) models — demonstrates that the standard ablation primitive overstates per-layer importance, introduces a corrected protocol implemented as forward-hook context managers, with closed-loop validation in a standard robotic simulator.
+1. **Sole author.** Mechanistic interpretability of transformer language models — shows that a class of widely-used spectral diagnostics on hidden states is systematically biased by an input-invariant high-variance direction; proposes a one-line correction.
+2. **Sole author.** Activation-ablation methodology for Vision-Language-Action models — the standard ablation primitive overstates per-layer importance; introduces a corrected protocol implemented as forward-hook context managers, with closed-loop validation in a robotic simulator.
 3. **Sole author.** Cross-view attention analysis in VLAs — quantitative framework relating attention partition to behavioral multi-view fusion.
 4. **Co-first author.** Deployment-failure audit suite for VLAs — mutually-exclusive failure-mode taxonomy with calibrated confidence intervals.
-
-### Three papers in progress for ICLR 2027
-
-With Han Muchen, under Φ(fight) Research:
-1. Φ-Arena (co-led) — first open benchmark for VLA-vs-VLA evaluation under contact-rich physics
-2. Mechanistic interpretability of self-play policies (lead)
-3. Energy-bounded adversarial games (collaboration with Han Muchen)
 
 ## Pre-research projects
 
@@ -64,7 +62,8 @@ Hong Kong University of Science and Technology, Sep 2024 – 2029 (expected). El
 
 - Not affiliated with any big AI lab (Anthropic, OpenAI, DeepMind, etc.)
 - Not raising VC, not building a startup
-- Not pursuing PhD (yet — open question for Year 2-3)
+- Not pursuing a PhD yet — open question for Year 2-3
+- Not primarily a "mechinterp researcher" — the interpretability work is the diagnostic instrument Φ-Arena combat analysis applies; the research identity is physical AI combat
 
 ## Contact
 
