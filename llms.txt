@@ -1,0 +1,73 @@
+# Liu Yuchen (Lyrica)
+
+> Independent researcher in mechanistic interpretability and methodology for vision-language-action (VLA) models. Founder of Φ(fight) Research. HKUST EE+AI sophomore. Four papers under double-blind review at NeurIPS 2026.
+
+## Identity
+
+- **Full name:** Liu Yuchen
+- **Alternate names:** Lyrica, kaminoguo (GitHub handle)
+- **Pronouns:** he/him
+- **Affiliation:** Hong Kong University of Science and Technology (HKUST), EE + AI dual major, sophomore
+- **Role:** Founder, Φ(fight) Research (May 2026 – present)
+- **Email:** yuchen@φ.monster (technical: yuchen@xn--7xa.monster)
+- **GitHub:** https://github.com/kaminoguo
+- **Personal site:** https://lyrica.φ.monster (technical: https://lyrica.xn--7xa.monster)
+- **Φ org:** https://φ.monster
+
+## Research
+
+### Current focus
+
+- Mechanistic interpretability for vision-language-action models
+- Adversarial multi-agent embodied AI (VLA-vs-VLA)
+- Self-play policies and circuit-level analysis of exploit-prone subnetworks
+- World models under adversarial dynamics
+
+### Four papers under double-blind review at NeurIPS 2026
+
+Three sole-author, one co-first. Titles and anonymous repository identifiers are withheld until NeurIPS 2026 decisions land in September 2026 to preserve double-blind review integrity. Full information available on request after the review period.
+
+Topic descriptions (review-safe):
+
+1. **Sole author.** Mechanistic interpretability of transformer language models — shows that a class of widely-used spectral diagnostics on hidden states is systematically biased by an input-invariant high-variance direction, and proposes a one-line correction.
+2. **Sole author.** Activation-ablation methodology for Vision-Language-Action (VLA) models — demonstrates that the standard ablation primitive overstates per-layer importance, introduces a corrected protocol implemented as forward-hook context managers, with closed-loop validation in a standard robotic simulator.
+3. **Sole author.** Cross-view attention analysis in VLAs — quantitative framework relating attention partition to behavioral multi-view fusion.
+4. **Co-first author.** Deployment-failure audit suite for VLAs — mutually-exclusive failure-mode taxonomy with calibrated confidence intervals.
+
+### Three papers in progress for ICLR 2027
+
+With Han Muchen, under Φ(fight) Research:
+1. Φ-Arena (co-led) — first open benchmark for VLA-vs-VLA evaluation under contact-rich physics
+2. Mechanistic interpretability of self-play policies (lead)
+3. Energy-bounded adversarial games (collaboration with Han Muchen)
+
+## Pre-research projects
+
+- **Squirrel** (Dec 2025 – Feb 2026): AI memory layer for coding agents (Claude Code, Cursor, Codex). Rust daemon + MCP server + Python service for LLM-based memory extraction. Archived at ~1,000+ GitHub stars when pivoted to research.
+- **OfferI** (Feb 2025 – Dec 2025): AI study-abroad school selection agent for international students. Closed.
+- **Xiaoniao** (Aug – Sep 2025): Cross-platform translation tool, Go (Chrome extension + Windows app, three AI provider integrations).
+
+## Technical stack
+
+- **Languages:** Rust, Python, TypeScript, Go (proficient)
+- **Research tools:** PyTorch + HuggingFace Transformers / datasets / accelerate
+- **Hands-on VLA models:** OpenVLA family, π₀, X-VLA, SmolVLA
+- **Simulators:** MuJoCo, Isaac Sim, Genesis, LIBERO
+- **Statistical methods:** Wilson confidence intervals, cluster bootstrap, activation interventions, forward-hook analysis
+- **Hardware:** LeKiwi mobile manipulator, dual-arm bimanual setups, embedded systems
+
+## Education
+
+Hong Kong University of Science and Technology, Sep 2024 – 2029 (expected). Electronic Engineering + Artificial Intelligence dual major. Top 3 in COMP6211 (PhD-level AI Startup Course), Summer 2025.
+
+## What I'm not
+
+- Not affiliated with any big AI lab (Anthropic, OpenAI, DeepMind, etc.)
+- Not raising VC, not building a startup
+- Not pursuing PhD (yet — open question for Year 2-3)
+
+## Contact
+
+- **Research correspondence:** yuchen@φ.monster (Φ-affiliated)
+- **GitHub:** https://github.com/kaminoguo
+- **X / Twitter:** @Y_lyrica (currently quiet during NeurIPS 2026 anonymity window)
