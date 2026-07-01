@@ -57,8 +57,15 @@ modes that look acceptable on aggregate-success metrics alone.
 
 **Founder, [Φ(fight) Research](https://xn--7xa.monster)** <span class="meta">May 2026 – present</span>
 
-- Independent research collective for physical-world AI fighting: adversarial multi-agent VLA, world models under contested dynamics, mechanistic interpretability of self-play policies.
-- Three papers in progress for ICLR 2027 (co-authored with Han Muchen): one benchmark (Φ-Arena, co-led), one mechanistic interpretability paper (lead), one energy-bounded adversarial games paper (collaboration).
+- Physical-world AI fighting / adversarial research.
+
+</div>
+
+<div class="entry">
+
+**Research Assistant, HKUST Von Neumann Institute (VNI)** <span class="meta">Jan 2026 – Jun 2026</span>
+
+- Worked in Prof. Jia Jiaya's group on visual world models, in collaboration with Dr. Lu Changsheng (Postdoc).
 
 </div>
 
