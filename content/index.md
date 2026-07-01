@@ -63,9 +63,9 @@ modes that look acceptable on aggregate-success metrics alone.
 
 <div class="entry">
 
-**Research Assistant, HKUST Von Neumann Institute (VNI)** <span class="meta">Jan 2026 – Jun 2026</span>
+**Undergraduate Research Assistant, HKUST Von Neumann Institute (VNI)** <span class="meta">Jan – May 2026</span>
 
-- Worked in Prof. Jia Jiaya's group on visual world models, in collaboration with Dr. Lu Changsheng (Postdoc).
+- Prof. Jia Jiaya's group. Visual world models, in collaboration with Dr. Lu Changsheng (Postdoc).
 
 </div>
 
